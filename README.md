@@ -1,6 +1,6 @@
 # Leaf Classification Challenge: ResNet vs. Gradient Boosting 🪴🍃
 
-Hey, this is my solution for the [Kaggle Leaf Classification Challenge](https://www.kaggle.com/competitions/leaf-classification). The task was to classify 990 leaf images into 99 different tree species - super challenging because the leaves look really similar sometimes! 
+Hey, this is my solution for the [Kaggle Leaf Classification Challenge](https://www.kaggle.com/competitions/leaf-classification). The task was to classify 990 leaf images into 99 different tree species 
 
 I built two approaches to compare: a **Deep Learning model with ResNet** and a **classical ML model with Gradient Boosting + HOG features**.
 
