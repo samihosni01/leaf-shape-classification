@@ -27,7 +27,7 @@ I used a pre-trained **ResNet-18** (ImageNet weights) because:
 
 ### 2. Classical ML: XGBoost + HOG Features
 For the ML approach:
-- **HOG features** (whole image edges/textures, better than SIFT keypoints for leaves)
+- **HOG features** (scans WHOLE image for edges/textures - perfect for leaf shape/margin/veins) vs SIFT (only detects keypoints/spots like curves - unsuitable for uniform leaf surfaces)
 - **XGBoost** (250 estimators, max_depth=50) - each tree fixes the previous one's mistakes
 - Train/val split: 85/15
 - Got **71.14% validation accuracy**
