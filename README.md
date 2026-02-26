@@ -55,7 +55,3 @@ Both models generated Kaggle submissions:
 - XGBoost > Random Forest because it learns sequentially from mistakes.
 - Always use Dropout + L2 + augmentation for image classification!
 
-## 🚀 Quick Start
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/YourUsername/Leaf-Classification.git
